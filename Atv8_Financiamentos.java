@@ -20,5 +20,7 @@ public class Atv8_Financiamentos {
             System.out.printf("\n===== SOLICITAÇÃO APROVADA ==== \n=== A prestação de R$%.2f está no limite de financiamento. ===\n", prestacao);
         }
 
+        sc.close();
+
     }
 }
