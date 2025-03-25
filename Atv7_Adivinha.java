@@ -2,6 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Atv7_Adivinha {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
      
         Scanner sc = new Scanner(System.in);
