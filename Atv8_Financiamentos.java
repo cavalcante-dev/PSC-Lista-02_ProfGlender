@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Atv8_Financiamentos {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double salario, setentaPorCento, salarioReferencia, prestacao;
