@@ -5,21 +5,21 @@ public class Atv1_Aluno {
         Scanner sc = new Scanner(System.in);
         double nota, frequenciaPorCento, frequencia;
 
-        System.out.println("Insira a nota do Aluno: ");
+        System.out.println("\n=== Insira a nota do Aluno: ===");
         nota = sc.nextDouble();
-        System.out.println("Insira a frequencia do aluno (%): ");
+        System.out.println("=== Insira a frequencia do aluno (%): ===");
         frequenciaPorCento = sc.nextDouble();
 
         frequencia = frequenciaPorCento / 100;
 
         if (nota > 10.0 && frequencia > 1.0) {
-            System.out.println("Valores de nota e/ou frequência inválidos.");
+            System.out.println("\n== Valores de nota e/ou frequência inválidos. ==\n");
         } else if (nota >= 4.0 && nota <= 7 && frequencia >= 0.75) {
-            System.out.println("O Aluno está de recuperação.");
+            System.out.println("\n== O Aluno está de recuperação. ==\n");
         } else if (nota < 4.0 || frequencia < 0.75) {
-            System.out.println("O Aluno foi reprovado!");
+            System.out.println("\n== O Aluno foi reprovado! ==\n");
         } else if (nota >= 7.0 && frequencia >= 0.75){
-            System.out.println("O Aluno foi aprovado!");
+            System.out.println("\n== O Aluno foi aprovado! ==\n");
         }
 
         sc.close();

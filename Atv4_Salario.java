@@ -6,16 +6,16 @@ public class Atv4_Salario {
         Scanner sc = new Scanner (System.in);
         double salarioBruto, salarioLiquido, valeRefeicao, descontoFolha, boleto1, boleto2, boleto3, boleto4, boletosFinal, salarioFinal; 
 
-        System.out.println("==== Olá, João! ==== \n== Digite seu sálario do mês: ==");
+        System.out.println("\n==== Olá, João! ==== \n== Digite seu sálario do mês: ==");
         salarioBruto = sc.nextDouble();
 
         System.out.println("\n==== Digite seus boletos ==== \n== Boleto 1: ==");
         boleto1 = sc.nextDouble();
-        System.out.println("==== Digite seus boletos ==== \n== Boleto 2: ==");
+        System.out.println("\n==== Digite seus boletos ==== \n== Boleto 2: ==");
         boleto2 = sc.nextDouble();
-        System.out.println("==== Digite seus boletos ==== \n== Boleto 3: ==");
+        System.out.println("\n==== Digite seus boletos ==== \n== Boleto 3: ==");
         boleto3 = sc.nextDouble();
-        System.out.println("==== Digite seus boletos ==== \n== Boleto 4: ==");
+        System.out.println("\n==== Digite seus boletos ==== \n== Boleto 4: ==");
         boleto4 = sc.nextDouble();
 
         valeRefeicao = 12.5 / 100.0;

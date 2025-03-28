@@ -7,7 +7,7 @@ public class Atv3_Tinder {
         int notaAltura, notaBeleza, notaCarisma;
         String nome; 
 
-        System.out.println("== Digite o nome da sua pretendente: ==");
+        System.out.println("\n== Digite o nome da sua pretendente: ==");
         nome = sc.next();
 
         System.out.println("\n== Nota para a Altura (0 a 10): == ");
