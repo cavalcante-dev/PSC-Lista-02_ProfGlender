@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Atv1_Aluno {
-    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double nota, frequenciaPorCento, frequencia;
