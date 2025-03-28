@@ -16,7 +16,7 @@ public class Atv8_Financiamentos {
 
         if (salarioReferencia < prestacao) {
             System.out.printf("\n===== SOLICITAÇÃO NEGADA ==== \n=== A prestação de R$%.2f ultrapassa o limite de financiamento. ===\n", prestacao);
-        } else if (salarioReferencia > prestacao) {
+        } else if (salarioReferencia >= prestacao) {
             System.out.printf("\n===== SOLICITAÇÃO APROVADA ==== \n=== A prestação de R$%.2f está no limite de financiamento. ===\n", prestacao);
         }
 
